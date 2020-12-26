@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mi_primer_app_react/static/css/main.fc3aad8b.chunk.css",
-    "main.js": "/mi_primer_app_react/static/js/main.9285d2ba.chunk.js",
-    "main.js.map": "/mi_primer_app_react/static/js/main.9285d2ba.chunk.js.map",
+    "main.js": "/mi_primer_app_react/static/js/main.8b12e338.chunk.js",
+    "main.js.map": "/mi_primer_app_react/static/js/main.8b12e338.chunk.js.map",
     "runtime-main.js": "/mi_primer_app_react/static/js/runtime-main.bce43d12.js",
     "runtime-main.js.map": "/mi_primer_app_react/static/js/runtime-main.bce43d12.js.map",
     "static/js/2.179a7dff.chunk.js": "/mi_primer_app_react/static/js/2.179a7dff.chunk.js",
     "static/js/2.179a7dff.chunk.js.map": "/mi_primer_app_react/static/js/2.179a7dff.chunk.js.map",
     "index.html": "/mi_primer_app_react/index.html",
-    "precache-manifest.10f35b727714868164855007427f58c8.js": "/mi_primer_app_react/precache-manifest.10f35b727714868164855007427f58c8.js",
+    "precache-manifest.80a5e84c5d68c954c98494fb0872a3f7.js": "/mi_primer_app_react/precache-manifest.80a5e84c5d68c954c98494fb0872a3f7.js",
     "service-worker.js": "/mi_primer_app_react/service-worker.js",
     "static/css/main.fc3aad8b.chunk.css.map": "/mi_primer_app_react/static/css/main.fc3aad8b.chunk.css.map",
     "static/js/2.179a7dff.chunk.js.LICENSE.txt": "/mi_primer_app_react/static/js/2.179a7dff.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bce43d12.js",
     "static/js/2.179a7dff.chunk.js",
     "static/css/main.fc3aad8b.chunk.css",
-    "static/js/main.9285d2ba.chunk.js"
+    "static/js/main.8b12e338.chunk.js"
   ]
 }
