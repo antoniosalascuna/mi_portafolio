@@ -21,10 +21,9 @@ export default class header extends Component {
   </nav> {/* end #nav-wrap */}
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
-      <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-        effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
-        and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+      <h1 className="responsive-headline">Hola mi nombre es Carlos Antonio Salas Caballero</h1>
+      <h3>Soy un estudiante egresado de la <span>Universidad Naciona de Costa Rica</span>, <span>soy un 
+        apasionado con la tecnologia y el desarrollo de paginas Web</span>  <span>En la siguiente pagina encontraras mi curriculum de vida y conoceras un poco sobre mi. Para continuar preciona el siguiente boton --></span> <a className="smoothscroll" href="#about"> <a className="smoothscroll" href="#about">Sobre mi</a>.</h3>
       <hr />
       <ul className="social">
         <li><a href="#"><i className="fa fa-facebook" /></a></li>
