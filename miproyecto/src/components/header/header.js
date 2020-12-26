@@ -22,8 +22,8 @@ export default class header extends Component {
   <div className="row banner">
     <div className="banner-text">
       <h1 className="responsive-headline">Hola mi nombre es Carlos Antonio Salas Caballero</h1>
-      <h3>Soy un estudiante egresado de la <span>Universidad Naciona de Costa Rica</span>, <span>soy un 
-        apasionado con la tecnologia y el desarrollo de paginas Web</span>  <span>En la siguiente pagina encontraras mi curriculum de vida y conoceras un poco sobre mi. Para continuar preciona el siguiente boton --></span> <a className="smoothscroll" href="#about"> <a className="smoothscroll" href="#about">Sobre mi</a>.</h3>
+      <h3>Soy un apasionado con la tecnologia y desarrollo web <span>Soy egresado de la Universidad Nacional de Costa Rica</span>. A continuacion encontraras un poco de informacion sobre mi <a className="smoothscroll" href="#about">Sigue bajando y verás más </a>
+      <a className="smoothscroll" href="#about">Sobre mi</a>.</h3>
       <hr />
       <ul className="social">
         <li><a href="#"><i className="fa fa-facebook" /></a></li>
