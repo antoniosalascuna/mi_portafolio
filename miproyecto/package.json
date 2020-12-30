@@ -2,7 +2,7 @@
   "name": "miproyecto",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://antoniosalascuna.github.io/mi_primer_app_react",
+  "homepage":"https://antoniosalascuna.github.io/mi_portafolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
