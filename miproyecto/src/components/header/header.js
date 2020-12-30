@@ -21,8 +21,8 @@ export default class header extends Component {
   </nav> {/* end #nav-wrap */}
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">Hola!! :D</h1>
-      <h3> Mi nombre es Carlos Antonio Salas Caballero soy un apasionado con la tecnologia y desarrollo web <span>Soy egresado de la Universidad Nacional de Costa Rica</span>. A continuacion encontraras un poco de informacion sobre mi <a className="smoothscroll" href="#about">Sigue bajando y verás más </a>
+      <h1 className="responsive-headline">Saludos Visitante!!</h1>
+      <h3> <strong>Bienvenido a mi portafolio.</strong> Mi nombre es Carlos Antonio Salas Caballero soy un apasionado con la tecnologia y desarrollo web <span>Soy egresado de la Universidad Nacional de Costa Rica</span>. A continuacion encontraras un poco de informacion sobre mi <a className="smoothscroll" href="#about">Sigue bajando y verás más </a>
       <a className="smoothscroll" href="#about">Sobre mi</a>.</h3>
       <hr />
       <ul className="social">
