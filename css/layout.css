@@ -1012,7 +1012,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #habilidades img:hover{
    border:5px solid #F06000;
-   height: 10%;
+   
 }
 
+#habilidades img{
+   height: 10%;
+}
 
