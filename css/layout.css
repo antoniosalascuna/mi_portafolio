@@ -286,10 +286,12 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
+width: 134%;
+float: left;
+padding: 0;
+text-align: center;
+position: relative;
+left: -25%;
 }
 .bars .skills {
   	margin-top: 36px;
@@ -1019,6 +1021,6 @@ footer .social-links li:first-child { margin-left: 0; }
 width: 100%;
 border-top-left-radius: calc(.25rem - 1px);
 border-top-right-radius: calc(.25rem - 1px);
-height: 12rem;
+height: 15rem;
 }
 
