@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -286,10 +286,11 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
+	width: 134%;
+float: left;
+padding: 0;
+text-align: center;
+position: relative;
 }
 .bars .skills {
   	margin-top: 36px;
@@ -1003,4 +1004,22 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+#habilidades .col-lg-4{
+   margin: 0 !important;
+ padding: 25px;
+}
+
+#habilidades img:hover{
+   border:5px solid #A8A8A8;
+   
+}
+
+.card-img-top {
+width: 100%;
+border-top-left-radius: calc(.25rem - 1px);
+border-top-right-radius: calc(.25rem - 1px);
+height: 15rem;
+}
 

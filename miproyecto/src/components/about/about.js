@@ -9,7 +9,7 @@ export default class about extends Component {
           <section id="about">
   <div className="row">
     <div className="three columns">
-      <img className="profile-pic" src="images/antonio.jpg" alt />
+      <img className="profile-pic" src="images/antonio.jpg" alt="imagen de perfil" />
     </div>
     <div className="nine columns main-col">
       <h2>Sobre mi</h2>
@@ -34,7 +34,7 @@ export default class about extends Component {
         <div className="columns contact-details">
           <h2>Detalles de Contacto</h2>
           <p className="address">
-            <span>Antonio Salas Caballero</span><br />
+            <span>Carlos Antonio Salas Caballero</span><br />
             <span> Lugar de Residencia: Rio Claro, Zona Sur Costa Rica<br />
             </span><br />
             <span>Numero de Telefono: (+506)8715-5357</span><br />
