@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/fondo01.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -240,6 +240,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
@@ -1012,7 +1013,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #habilidades img:hover{
-   border:5px solid #A8A8A8;
+ 
    
 }
 
@@ -1021,5 +1022,8 @@ width: 100%;
 border-top-left-radius: calc(.25rem - 1px);
 border-top-right-radius: calc(.25rem - 1px);
 height: 15rem;
+}
+#hover-card:hover{
+   border:5px solid #A8A8A8;
 }
 

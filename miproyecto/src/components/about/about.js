@@ -12,15 +12,16 @@ export default class about extends Component {
       <img className="profile-pic" src="images/antonio.jpg" alt="imagen de perfil" />
     </div>
     <div className="nine columns main-col">
-      <h2>Sobre mi</h2>
+      <h2>Sobre mi persona</h2>
       <p>
-        Soy una persona apasionada con la tecnologia, sobre todo el ambito de desarrollo de aplicaciones web responsive, soporte tecnico
+        Soy una persona apasionada con la tecnología, sobre todo el ámbito de desarrollo de Aplicaciones Web Responsive, soporte técnico
         redes y bases de datos SQL Y NoSQL.
         Me gusta mucho el trabajo en equipo, me gusta aportar y escuchar nuevas ideas, no me gustar depender de solo una solución
         a un problema me gusta que existan varias ideas que ayuden a resolverlo. No me considero como una persona que se cree superior
-        a otras, tengo claro que existen personas con varias capacidades, unas son mejores que otras en diferente ambitos pero con el trabajo en equipo se puede crear cosas grandes y buenas.
+        a otras, tengo claro que existen personas con varias capacidades, unas son mejores que otras en diferente ámbitos pero con el trabajo en equipo se puede crear cosas grandes y de calidad.
         "Dos cabezas, piensan mejor que una".
-        Me gusta aprender cosas nuevas que me ayuden en el futuro y aplicarlas en proyectos de interes o demanda.
+         Soy muy curisoso, me gusta la investigación y la naturaleza. 
+         Me apasiona aprender cosas nuevas que me ayuden en el futuro y aplicarlas en proyectos de interés o demanda.
         
       </p>
      {/*  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
@@ -37,7 +38,7 @@ export default class about extends Component {
             <span>Carlos Antonio Salas Caballero</span><br />
             <span> Lugar de Residencia: Rio Claro, Zona Sur Costa Rica<br />
             </span><br />
-            <span>Numero de Telefono: (+506)8715-5357</span><br />
+            <span>Número de Telefono: (+506) 8715-5357</span><br />
             <span>Correo Electronico: antoniosalas1996@gmail.com</span>
           </p>
         </div>

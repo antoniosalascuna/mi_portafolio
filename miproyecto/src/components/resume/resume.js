@@ -19,11 +19,12 @@ export default class resume extends Component {
                   <h3>Años de Universidad</h3>
                   <p className="info">Estudiante<span>•</span> <em className="date">2016 - 2021</em></p>
                   <p>
-                    La Universidad Nacional me ha enseñado muchas cosas orientadas a las necesidades que las personas poseen
-                    ademas de los diferentes materias, me enseñó que el trabajo en equipo en mucho mejor que el trabajo individual,
-                    reconocer que cada persona tiene posee la misma capacidad que todas, solo que a veces que algunos se les dificulta
-                    un poco más, pero tienen la capacidad de mejorar, la capacidad de ser mas humanista con el medio ambiente.
-          Participe en varios grupos de  actividades de la Universidad Nacional, incluyendo en la <strong>ASEUNA.</strong>
+                    La Universidad Nacional me ha enseñado muchas cosas orientadas a las necesidades que las personas poseen en la actualidad.
+                    Ademas de los diferentes materias, me enseñó que el trabajo en equipo en mucho mejor que el trabajo individual,
+                    reconocer que cada persona posee la misma capacidad que todas, solo que a veces que algunos se les dificulta
+                    un poco más, pero tienen la capacidad de mejorar, el ser mas humanista con todas las personas y muy importante con el medio ambiente.
+                    Participe en varios grupos de actividades de la Universidad Nacional, incluyendo en la <strong>ASEUNA.</strong>
+                    Con el fin de brindar mi ayuda a la Universidad que me esta formando como un exelente profesional de calidad.
                   </p>
                 </div>
               </div> {/* item end */}
@@ -75,8 +76,26 @@ export default class resume extends Component {
             </div>
             <div className="nine columns main-col">
               <p>
-                Representacion y descripcion de las aplicaciones que he utilizado dentro del entorno de desarrollo
-      </p>
+                Representación y descripción de las aplicaciones que he utilizado dentro del entorno de desarrollo web
+            </p>
+              <ul class="list-group">
+                <li class="list-group-item">Lista de herramientas que conozco su funcionamiento y he utilizado
+                dentro de mi vida como estudiante universitario</li>
+
+                <li class="list-group-item list-group-item-dark">HTML5</li>
+                <li class="list-group-item list-group-item-dark">CSS3</li>
+                <li class="list-group-item list-group-item-dark">JavaScript</li>
+                <li class="list-group-item list-group-item-dark">Bootstrap V4</li>
+                <li class="list-group-item list-group-item-dark">Node Js</li>
+                <li class="list-group-item list-group-item-dark">FrameWork Angular V10</li>
+                <li class="list-group-item list-group-item-dark">FrameWork React </li>
+                <li class="list-group-item list-group-item-dark">FrameWork Codeigniter</li>
+                <li class="list-group-item list-group-item-dark">GitHub</li>
+                <li class="list-group-item list-group-item-dark">Wordpress</li>
+                <li class="list-group-item list-group-item-dark">Blender 2.8</li>
+                <li class="list-group-item list-group-item-dark">MySQL</li>
+                <li class="list-group-item list-group-item-dark">MongoDB</li>
+              </ul>
               <div className="bars">
                 <ul className="skills">
                   {/* <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>*/}
@@ -88,13 +107,14 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className="card">
+                        <div className="card" id="hover-card">
                           <img className="card-img-top " id="logos" alt="logo-html5" src="images/html5.png"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand html5" /></li>
-                            <p class="card-text">HTML5</p>
+                            <p class="card-text">Es un conjunto de etiquetas que interpretan los navegadores,
+                              funciona para elaborar paginas web, define su estrutura basica HTML5</p>
                           </div>
 
                         </div>
@@ -103,13 +123,15 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className="card">
+                        <div className="card" id="hover-card">
                           <img className="card-img-top " id="logos" alt="logo-css3" src="images/css3logo.png"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand css" /></li>
-                            <p class="card-text">CSS3</p>
+                            <p class="card-text"> Hojas de estilo en cascadas(CSS), el CSS se encarga
+                            de darle color, tamaño, posicionamiento y dar caracteristicas visuales a las
+                            etiquetas HTML5</p>
                           </div>
                         </div>
 
@@ -117,30 +139,49 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className="card">
+                        <div className="card" id="hover-card">
                           <img className="card-img-top " id="logos" alt="logo-js" src="images/logojs.png"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand jquery" /></li>
-                            <p class="card-text">JS</p>
+                            <p class="card-text">JavaScript es un lenguaje de secuencias de comandos que permite
+                            contenido de actualización dinamica, animar objetos en pocas palabras es el quién le
+                            da el funcionamiento a las cosa en el DOM</p>
                           </div>
                         </div>
 
                       </div>
 
-                 
+
+                      <div className="col-lg-4 col-md-6 col-sm-12">
+
+                        <div className="card" id="hover-card">
+                          <img className="card-img-top " id="logos" alt="logo-js" src="images/what-is-bootstrap-logo.png"></img>
+
+                          <div className="card-body">
+
+                            <li><span className="bar-expand jquery" /></li>
+                            <p class="card-text">Es una biblioteca de estilos CSS muy util en la web para darle
+                            color, tamaño y posicionamiento a elementos HTML</p>
+                          </div>
+                        </div>
+
+                      </div>
+
+
 
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className="card">
+                        <div className="card" id="hover-card">
                           <img className="card-img-top " id="logos" alt="logo-nodejs" src="images/node_js.png"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand illustrator" /></li>
-                            <p class="card-text">NodeJS</p>
+                            <p class="card-text">NodeJS es un servidor de codigo abierto, compatible con las
+                            versiones en ECMAScript 5 o 6 (JavaScript). Esta diseñado para la creación de app Web</p>
                           </div>
                         </div>
 
@@ -148,13 +189,14 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className=" card ">
+                        <div className=" card " id="hover-card">
                           <img className="card-img-top " id="logos" alt="logo-angular_logo" src="images/angular_logo.png"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand photoshop" /></li>
-                            <p class="card-text">Angular 10.0</p>
+                            <p class="card-text">Angular es un potente FrameWork de Front End, tiene muchas librerias
+                            de gran utilidad, es MVC y esta diseñado para crear paginas SPA(One-Single-Page)</p>
                           </div>
                         </div>
 
@@ -162,13 +204,16 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className=" card " >
+                        <div className=" card " id="hover-card" >
                           <img className="card-img-top " id="logos" alt="react-logo" src="images/logo512.png"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand jquery" /></li>
-                            <p class="card-text">ReactJs</p>
+                            <p class="card-text">React es otro FrameWork muy bueno en la parte visual(Front-End). Es conocido
+                            como una biblioteca de JavaScript de codigo abierto.
+                            Posee una ventaja con el diseño responsive para dispositivos moviles comparado con la competencia
+                            </p>
                           </div>
                         </div>
 
@@ -176,13 +221,15 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className=" card " >
+                        <div className=" card " id="hover-card" >
                           <img className="card-img-top " id="logos" alt="logo-codeigniter" src="images/cdlogo.jpg"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand jquery" /></li>
-                            <p class="card-text">CodeIgniter</p>
+                            <p class="card-text">CodeIgniter es un potente framework PHP muy liviano
+                            construido para desarrolladores que necesitan un kit de herramientas simples y elegantes
+                            para crear aplicaciones web completas</p>
                           </div>
                         </div>
 
@@ -190,12 +237,13 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className="card" >
+                        <div className="card" id="hover-card" >
                           <img className="card-img-top " id="logos" alt="logo-github" src="images/th.jpg"></img>
 
                           <div className="card-body">
                             <li><span className="bar-expand jquery" /></li>
-                            <p class="card-text">GitHub</p>
+                            <p class="card-text">GitHub es un repository de codigo abierto que aloja  proyectos utilizando el control
+                            de versiones de Git </p>
                           </div>
                         </div>
 
@@ -204,13 +252,15 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className="card" >
+                        <div className="card" id="hover-card" >
                           <img className="card-img-top " id="logos" alt="logo-wordpress" src="images/wordpress.jpg"></img>
 
                           <div className="card-body">
 
                             <li><span className="bar-expand photoshop" /></li>
-                            <p class="card-text">Wordpress</p>
+                            <p class="card-text">Wordpress es un excelente CMS para creacion de paginas web profesionales en
+                            rapido tiempo, se dice que mas del 70% de la web esta construida por este CMS, amigable con las
+                            personas que poseen pocos conociemientos en HTML, CSS Y JS </p>
                           </div>
                         </div>
 
@@ -218,12 +268,13 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className=" card " >
+                        <div className=" card " id="hover-card" >
                           <img className="card-img-top" id="logos" alt="logo-blender" src="images/Logo-Blender-svg.png"></img>
 
                           <div className="card-body">
                             <li><span className="bar-expand photoshop" /></li>
-                            <p class="card-text">Blender 3D</p>
+                            <p class="card-text">Blender 3D es un editor de objetos 3D, funciona para crear modelos de
+                            objetos en 3D para luego convertilos en personajes de videojuegos e inclusive de cortometrajes animados</p>
                           </div>
                         </div>
 
@@ -232,12 +283,13 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className=" card " >
+                        <div className=" card " id="hover-card" >
                           <img className="card-img-top" id="logos" alt="logo-blender" src="images/mysql_PNG23.png"></img>
 
                           <div className="card-body">
                             <li><span className="bar-expand photoshop" /></li>
-                            <p class="card-text">MySQL</p>
+                            <p class="card-text">MySQL es un Sistema Gestor de Base de datos relacional
+                           muy popular en el mundo por ser de codigo abierto </p>
                           </div>
                         </div>
 
@@ -245,12 +297,13 @@ export default class resume extends Component {
 
                       <div className="col-lg-4 col-md-6 col-sm-12">
 
-                        <div className=" card " >
+                        <div className=" card " id="hover-card" >
                           <img className="card-img-top" id="logos" alt="logo-Mongodb" src="images/mongo-db-logo.png"></img>
 
                           <div className="card-body">
                             <li><span className="bar-expand photoshop" /></li>
-                            <p class="card-text">MongoDB</p>
+                            <p class="card-text">MongoDB es un Gestor de Bases de Datos NoSQL la informacióon se almacenan en JSON,
+                            ofrece una gran flexibilidad y escalabilidad </p>
                           </div>
                         </div>
 
